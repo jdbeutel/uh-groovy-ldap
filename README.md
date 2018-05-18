@@ -6,12 +6,12 @@ LDAP Groovy Demonstration Program
 **Overview**
 
 The program demonstrates how to do a simple LDAP search
-of the University of Hawaii LDAP service. 
+of the University of Hawaii LDAP service.
 
 Note: You must specify your special DN and its password.<br/>
 The example run of the program uses the 'filedrop' special DN,
-but the value of the password has been removed from the 
-checked-in code. The use of the special DN will also require 
+but the value of the password has been removed from the
+checked-in code. The use of the special DN will also require
 the ability to pass through the UH firewall.
 
 **Technology**
@@ -29,18 +29,18 @@ Install Groovy if you don't already have it.
 
 **Running the Program**
 
-Run the program from the command line: 
+Run the program from the command line:
 
     $ groovy ldapRunner duckart
     vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
-    [cn: Frank R Duckart, uid: duckart, uhUuid: 17958670, mail: duckart@hawaii.edu, frank.duckart@hawaii.edu]
+    [cn: Francis R Duckart, uid: duckart, uhUuid: 12345678, mail: duckart@hawaii.edu, francis.duckart@hawaii.edu]
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can run the program with multiple UH usernames: </br>
 
     $ groovy ldapRunner duckart duckart
     vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
-    [cn: Frank R Duckart, uid: duckart, uhUuid: 17958670, mail: duckart@hawaii.edu, frank.duckart@hawaii.edu]
+    [cn: Francis R Duckart, uid: duckart, uhUuid: 12345678, mail: duckart@hawaii.edu, francis.duckart@hawaii.edu]
     ....................................
-    [cn: Frank R Duckart, uid: duckart, uhUuid: 17958670, mail: duckart@hawaii.edu, frank.duckart@hawaii.edu]
+    [cn: Francis R Duckart, uid: duckart, uhUuid: 12345678, mail: duckart@hawaii.edu, francis.duckart@hawaii.edu]
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
